@@ -3,3 +3,48 @@ Why numpy is fast?
 An array is a collection of homogeneous data-types which are stored in contagious memory locations, on the other hand, a list in Python is collection of heterogeneous data types stored in non-contagious memory locations.
 The NumPy package breakdowns a task into multiple fragments, and then processes all the fragments parallelly.
 The NumPy package integrates C, C++ and Fortran codes in Python, these programming languages have very less execution time as compared to python.
+
+###################################################################
+first program.
+#######################################################################
+
+import numpy as np
+
+a = np.array([1,2,3])
+print(a)
+
+b = np.array([9.3,4,5],[4.5,6,6])
+print(b)
+
+a.ndim
+
+b.shape
+
+a.dtype
+a.itemsize
+
+##################################################################
+Array
+
+a = np.array([[2,3,4],[5,6,7]])
+print(a)
+
+a[1,3]
+
+a[0,:]
+
+a[:,2]
+
+a[0,1:-1:2]
+
+a[1,5] =20
+
+a[:2] = [1,2]
+print(a)
+
+
+
+
+
+
+
